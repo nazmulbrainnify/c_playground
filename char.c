@@ -1,11 +1,17 @@
 #include <stdio.h>
 
 int main(){
+    int age;
 
-char ch;
-printf("Enter Your Name: ");
-scanf("%c", &ch);
+    printf("Enter Your Age: ");
+    scanf("%d", &age);
 
-printf("Your Name is : %c", ch);
-return 0;
+
+    if(age <= 18){
+        printf("You Are Too Young, Not An Adult");
+    }else{
+        printf("You are an Adult");
+    }
+
+    return 0;
 }
