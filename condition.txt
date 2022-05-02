@@ -7,7 +7,7 @@ int main(){
     scanf("%d", &age);
 
 
-    if(age <= 18){
+    if(age < 18){
         printf("You Are Too Young, Not An Adult");
     }else{
         printf("You are an Adult");
